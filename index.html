@@ -2,115 +2,143 @@
 <html>
 <head>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="./css/docs.min.css">
   <title> NSSTBD 2014 </title>
 </head>
 
 <body>
 
-<div class="container-fluid">
-    <div class="row-fluid">
-        <div class="col-md-8 col-md-offset-2">
-        <div class="span8">
-            <div class="page-header">
-                <h1>
-                  <small>BDSE Workshop on </small>
+    <div class="bs-docs-header">
+    <div class="container">
+    	<h1>
+            <small>BDSE Workshop on </small>
                   <br>
                   New storage system and technology for Big Data 
-                </h1>
-            </div>
-            <div>
-                <h2>
-                    Introduction
-                </h2>
-                <p class="text-sm">
-                    In recent years data storage has emerged as important research fields driven by the demand for scalable structures and technologies to satisfy the growing needs of massive data management and processing. Big Data challenges storage systems with more capacity, scalability and efficient accessibility, while traditional storage architectures just weren’t designed to handle this scale. This workshop intends to bring together researchers and practitioners from academia and industry to discuss cutting edge research on new storage systems and technology for big data, such that the interactions among the experts of these areas can be promoted and new interdisciplinary technologies can be developed.
-                </p>
-            </div>
-            <hr>
-            <div>
-                <h2>
-                    Research topics included in the workshop
-                </h2>
-                <p>
-                    Topics of interest of this workshop include but are not limited to:
-                </p>
-                <ul>
-                    <li> Non-volatile memory-based storage systems </li>
-                    <li> Applications of non-volatile memories to big data </li>
-                    <li> Hybrid storage systems </li>
-                    <li> Solid state drive (SSD) </li>
-                    <li> Data deduplication </li>
-                    <li> Key-value and NoSQL storage </li>
-                    <li> Storage reliability, availability and security </li>
-                    <li> Cache and memory systems </li>
-                    <li> Memory computing </li>
-                    <li> Operating system and file system designs for non-volatile memories </li>
-                    <li> Distributed and parallel I/O </li>
-                    <li> Energy aware storage </li>
-                    <li> Storage performance and scalability </li>
-                    <li> Storage virtualization and cloud storage </li>
-                    <li> Storage management for big data </li>
-                </ul>
-            </div>
-            <hr>
-            <div>
-                <h2>
-                    Important dates
-                </h2>
-                <ul>
-                  <li class="text-danger"><b>Submission Deadline</b>: June 15, 2014</li>
-                  <li><b>Authors Notification</b>: June 30, 2014</li>
-                  <li><b>Camera-ready Paper Due</b>:  July 20, 2014</li>
-                  <li><b>Workshop</b>:  September 24-26, 2014</li>
-                </ul>
-            </div>
-            <hr>
-            <div>
-                <h2>
-                    Program co-chairs
-                </h2>
-                <div>
-                    <h4 style="margin-left:20px">Nong Xiao</h4>
-                    <div style="margin-left:40px"><i><b>The State Key Laboratory of High Performance Computing, National University of Defense Technology, China</b></i></div>
-                    <div style="margin-left:40px"><b>Address:</b> Changsha, 410073, Hunan, P.R. China</div>
-                    <div style="margin-left:40px"><b>Email:</b> nongxiao@nudt.edu.cn</div>
-                </div>
-                <div>
-                    <h4 style="margin-left:20px">Jiwu Shu</h4>
-                    <div style="margin-left:40px"><i><b>Department of Computer Science and Technology, Tsinghua University, China</b></i></div>
-                    <div style="margin-left:40px"><b>Address:</b> Beijing, 100084, P.R. China</div>
-                      <div style="margin-left:40px"><b>Email:</b> shujw@tsinghua.edu.cn</div>
-                </div>
-            </div>
-            <hr>
-            <div>
-                <h2>
-                    Program committee <small>(To be confirmed)</small>
-                </h2>
-                <div>
-                    <ul>
-                      <li> <b> Liang Fang </b> <i> (National University of Defense Technology, China) </i> </li>
-                      <li> <b> Xingmian Sha </b> <i> (Chongqing University, China) </i> </li>
-                      <li> <b> Dan Feng </b> <i> (Huazhong University of Science and Technology, China) </i> </li>
-                      <li> <b> Xubin He </b> <i> (Virginia Commonwealth University, USA) </i> </li>
-                      <li> <b> Xiaofei Liao </b> <i> (Huazhong University of Science and Technology, China) </i> </li>
-                      <li> <b> Yifeng Zhu </b> <i> (University of Maine, USA) </i> </li>
-                      <li> <b> Xiao Qin </b> <i>(Auburn University, USA) </i> </li>
-                      <li> <b> Fang Liu </b> <i> (National University of Defense Technology, China) </i> </li>
-                      <li> <b> Duo Liu </b> <i> (Chongqing University, China) </i> </li>
+        </h1>
+    </div>
+    </div>            
+    <div class="container bs-docs-container">           
+    	
+    	<div class="row">
+            <div class="col-md-3">                                 
+                <div class="bs-docs-sidebar hidden-print affix-top" data-spy="affix" role="complementary">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top" data-spy="affix">
+                        
+                            <li><a href="#introduction">Introduction</a></li>
+                            <li><a href="#topics">Research topics included in the workshop</a></li>
+                            <li><a href="#submission">Submission</a></li>
+                            <li><a href="#dates">Important dates</a></li>
+                            <li><a href="#co-chairs">Program co-chairs</a></li>
+                            <li><a href="#committees">Program committee</a></li>
+
+                        
                     </ul>
                 </div>
             </div>
-        </div>
-        </div>
+    		<div class="col-md-8" role="main">
+    			<div class="bs-docs-section">
+    				<h2 id="introduction" class="page-header">
+                    	Introduction
+                	</h2>
+					<p class="text-sm">
+                    In recent years data storage has emerged as important research fields driven by the demand for scalable structures and technologies to satisfy the growing needs of massive data management and processing. Big Data challenges storage systems with more capacity, scalability and efficient accessibility, while traditional storage architectures just weren’t designed to handle this scale. This workshop intends to bring together researchers and practitioners from academia and industry to discuss cutting edge research on new storage systems and technology for big data, such that the interactions among the experts of these areas can be promoted and new interdisciplinary technologies can be developed.
+                	</p>
+                    <p>
+                    The 1st BDSE Workshop on New storage system and technology for Big Data (NSSTBD2014) will be held in conjunction with the <a target="_blank" href="http://www.swinflow.org/confs/bdse2014/index.htm">3rd International Conference on Big Data Science and Engineering (BDSE2014)</a>, 24th to 26th of September 2014, in Beijing, China.
+                    </p>
+    			</div>
+    			<div class="bs-docs-section">
+    				<h2 id="topics" class="page-header">
+                    	Research topics included in the workshop
+                	</h2>
+					 <p>
+                    	Topics of interest of this workshop include but are not limited to:
+                	</p>
+		                <ul>
+		                    <li> Non-volatile memory-based storage systems </li>
+		                    <li> Applications of non-volatile memories to big data </li>
+		                    <li> Hybrid storage systems </li>
+		                    <li> Solid state drive (SSD) </li>
+		                    <li> Data deduplication </li>
+		                    <li> Key-value and NoSQL storage </li>
+		                    <li> Storage reliability, availability and security </li>
+		                    <li> Cache and memory systems </li>
+		                    <li> Memory computing </li>
+		                    <li> Operating system and file system designs for non-volatile memories </li>
+		                    <li> Distributed and parallel I/O </li>
+		                    <li> Energy aware storage </li>
+		                    <li> Storage performance and scalability </li>
+		                    <li> Storage virtualization and cloud storage </li>
+		                    <li> Storage management for big data </li>
+		                </ul>
+    			</div>
+                <div class="bs-docs-section">
+                    <h2 id="submission" class="page-header">
+                        Submission
+                    </h2>
+                    <p class="text-sm">
+                       Submissions must include an abstract, keywords, the e-mail address of the corresponding author and should not exceed 8 pages for main conference, including tables and figures in IEEE CS format. The template files for LATEX or WORD can be downloaded <a target="_blank" href="http://www2.computer.org/portal/web/cscps/formatting;jsessionid=BAADE4ED540A35D4C0DCE66D678F78DA">here</a>. All paper submissions must represent original and unpublished work. Each submission will be peer reviewed by at least three program committee members. Submission of a paper should be regarded as an undertaking that, should the paper be accepted, at least one of the authors will register for the conference and present the work.
+                    </p>
+                    <p>
+                       Submit your paper(s) in PDF file at the NSSTBD2014 submission site:                       
+                    </p>
+                    <p>
+                    <code font-size="100%">
+                       <a target="_blank" href="https://www.easychair.org/conferences/?conf=nsstbd2014 ">https://www.easychair.org/conferences/?conf=nsstbd2014 </a>
+                    </code>
+                    </p>
+                </div> 
+    			<div class="bs-docs-section">
+    				<h2 id="dates" class="page-header">
+                    	Important dates
+                	</h2>
+					<ul>
+	                  <li class="text-danger"><b>Submission Deadline</b>: June 15, 2014</li>
+	                  <li><b>Authors Notification</b>: June 30, 2014</li>
+	                  <li><b>Camera-ready Paper Due</b>:  July 20, 2014</li>
+	                  <li><b>Workshop</b>:  September 24-26, 2014</li>
+                	</ul>
+    			</div>
+    			<div class="bs-docs-section">
+    				<h2 id="co-chairs" class="page-header">
+                    	Program co-chairs
+                	</h2>
+					 <div>
+	                    <h4 style="margin-left:20px">Nong Xiao</h4>
+	                    <div style="margin-left:40px"><i><b>The State Key Laboratory of High Performance Computing, National University of Defense Technology, China</b></i></div>
+	                    <div style="margin-left:40px"><b>Address:</b> Changsha, 410073, Hunan, P.R. China</div>
+	                    <div style="margin-left:40px"><b>Email:</b> nongxiao@nudt.edu.cn</div>
+               		 </div>
+                	<div>
+	                    <h4  style="margin-left:20px">Jiwu Shu</h4>
+	                    <div style="margin-left:40px"><i><b>Department of Computer Science and Technology, Tsinghua University, China</b></i></div>
+	                    <div style="margin-left:40px"><b>Address:</b> Beijing, 100084, P.R. China</div>
+	                    <div style="margin-left:40px"><b>Email:</b> shujw@tsinghua.edu.cn</div>
+                	</div>
+    			</div>
+    			<div class="bs-docs-section">
+    				<h2 id="committees" class="page-header">
+                    	Program committee <small>(To be confirmed)</small>
+                	</h2>
+					<div>
+	                    <ul>
+	                      <li> <b> Liang Fang </b> <i> (National University of Defense Technology, China) </i> </li>
+	                      <li> <b> Xingmian Sha </b> <i> (Chongqing University, China) </i> </li>
+	                      <li> <b> Dan Feng </b> <i> (Huazhong University of Science and Technology, China) </i> </li>
+	                      <li> <b> Xubin He </b> <i> (Virginia Commonwealth University, USA) </i> </li>
+	                      <li> <b> Xiaofei Liao </b> <i> (Huazhong University of Science and Technology, China) </i> </li>
+	                      <li> <b> Yifeng Zhu </b> <i> (University of Maine, USA) </i> </li>
+	                      <li> <b> Xiao Qin </b> <i>(Auburn University, USA) </i> </li>
+	                      <li> <b> Fang Liu </b> <i> (National University of Defense Technology, China) </i> </li>
+	                      <li> <b> Duo Liu </b> <i> (Chongqing University, China) </i> </li>
+	                    </ul>
+                    </div>
+    			</div>
+    		</div>    		
+    	</div>    	
     </div>
-
-    <div class="clearfix"></div>
-    <br>
-    <br>
-    <hr>
-    <br>
+    <div class="clearfix"></div>                                                                                                                                                     
+             
     <footer class="bs-docs-footer" role="contentinfo">
       <div class="container"> 
       <div> <p class="text-center"> -= NSSTBD 2014 =- </p> </div>
@@ -118,6 +146,8 @@
     </footer>
     <br>
     <br>
-</div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/docs.min.js"></script>    
+    <script src="./js/jquery-1.11.1.min.js"></script>
 </body>
 </html>
